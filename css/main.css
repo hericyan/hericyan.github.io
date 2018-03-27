@@ -1097,7 +1097,7 @@ pre .javascript .function {
 }
 .headband {
   height: 136px;
-  background: url("/Users/yanhaipeng/Documents/myblog/themes/next/source/images/qq1.jpg") no-repeat center;
+  background: url("../../lib/images/ww.jpg") no-repeat center;
   margin: 0 0 30px 0;
   background-size: 100%;
 }
@@ -1115,7 +1115,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: url("/Users/yanhaipeng/Documents/myblog/themes/next/source/images/qqq.jpg") 100% 50%;
+  background: url("../../lib/images/qqq.jpg") 100% 50%;
   border-bottom: none;
 }
 .brand:hover {
@@ -1937,7 +1937,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff65a6;
+  background: #ffe87e;
 }
 .links-of-blogroll {
   font-size: 13px;

@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo,github,npm,js," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,18 +79,17 @@
 
 
 
-<meta name="description" content="路由器的功能，就是路由转发，在路由器内部，有一个小小的操作系统 OS 在做这项工作，其缓存大小，决定着它在转发数据包时的能力，缓存大，转发的就快，客户端的计算机网速也就相应的提高，反之则相反。通俗点说，每个路由器根据所在网络的不同，都有自己都路由表，在工作时会选择相应的路径。为什么要有路由器缓存呢？这个也是为了发送数据，因为路由器最高层一般都是网络层，网络层作用一般是传输数据包，数据包又是经过应用">
-<meta name="keywords" content="hexo,github,npm,js">
+<meta name="description" content="JSON.stringify() 从一个对象中解析出字符串 JSON.stringify({“a”:”1”,”b”:”2”}) 结果是：”{“a”:”1”,”b”:”2”}”  JSON.parse()从一个字符串中解析出JSON对象 var str = ‘{“a”:”1”,”b”:”2”}’; JSON.parse(str); 结果是：Object{a:”1”,b:”2”}">
 <meta property="og:type" content="article">
-<meta property="og:title" content="为什么要进行路由器缓存">
-<meta property="og:url" content="http://yoursite.com/2018/03/27/为什么要进行路由器缓存/index.html">
+<meta property="og:title" content="JSON.stringify()和JSON.parse()分别是什么">
+<meta property="og:url" content="http://yoursite.com/2018/04/13/JSON-stringify-和JSON-parse-分别是什么/index.html">
 <meta property="og:site_name" content="Yanhaha&#39;s house">
-<meta property="og:description" content="路由器的功能，就是路由转发，在路由器内部，有一个小小的操作系统 OS 在做这项工作，其缓存大小，决定着它在转发数据包时的能力，缓存大，转发的就快，客户端的计算机网速也就相应的提高，反之则相反。通俗点说，每个路由器根据所在网络的不同，都有自己都路由表，在工作时会选择相应的路径。为什么要有路由器缓存呢？这个也是为了发送数据，因为路由器最高层一般都是网络层，网络层作用一般是传输数据包，数据包又是经过应用">
+<meta property="og:description" content="JSON.stringify() 从一个对象中解析出字符串 JSON.stringify({“a”:”1”,”b”:”2”}) 结果是：”{“a”:”1”,”b”:”2”}”  JSON.parse()从一个字符串中解析出JSON对象 var str = ‘{“a”:”1”,”b”:”2”}’; JSON.parse(str); 结果是：Object{a:”1”,b:”2”}">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-27T13:50:01.762Z">
+<meta property="og:updated_time" content="2018-04-13T06:35:15.724Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="为什么要进行路由器缓存">
-<meta name="twitter:description" content="路由器的功能，就是路由转发，在路由器内部，有一个小小的操作系统 OS 在做这项工作，其缓存大小，决定着它在转发数据包时的能力，缓存大，转发的就快，客户端的计算机网速也就相应的提高，反之则相反。通俗点说，每个路由器根据所在网络的不同，都有自己都路由表，在工作时会选择相应的路径。为什么要有路由器缓存呢？这个也是为了发送数据，因为路由器最高层一般都是网络层，网络层作用一般是传输数据包，数据包又是经过应用">
+<meta name="twitter:title" content="JSON.stringify()和JSON.parse()分别是什么">
+<meta name="twitter:description" content="JSON.stringify() 从一个对象中解析出字符串 JSON.stringify({“a”:”1”,”b”:”2”}) 结果是：”{“a”:”1”,”b”:”2”}”  JSON.parse()从一个字符串中解析出JSON对象 var str = ‘{“a”:”1”,”b”:”2”}’; JSON.parse(str); 结果是：Object{a:”1”,b:”2”}">
 
 
 
@@ -120,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/03/27/为什么要进行路由器缓存/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/13/JSON-stringify-和JSON-parse-分别是什么/"/>
 
 
 
 
 
-  <title>为什么要进行路由器缓存 | Yanhaha's house</title>
+  <title>JSON.stringify()和JSON.parse()分别是什么 | Yanhaha's house</title>
   
 
 
@@ -304,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/03/27/为什么要进行路由器缓存/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/13/JSON-stringify-和JSON-parse-分别是什么/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yanhaha">
@@ -321,7 +320,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">为什么要进行路由器缓存</h1>
+          <h1 class="post-title" itemprop="name headline">JSON.stringify()和JSON.parse()分别是什么</h1>
         
 
         <div class="post-meta">
@@ -333,8 +332,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-27T21:45:56+08:00">
-                2018-03-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T14:34:25+08:00">
+                2018-04-13
               </time>
             
 
@@ -343,28 +342,6 @@
             
           </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/js/" itemprop="url" rel="index">
-                    <span itemprop="name">js</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -393,7 +370,14 @@
       
 
       
-        <p>路由器的功能，就是路由转发，在路由器内部，有一个小小的操作系统 OS 在做这项工作，其缓存大小，决定着它在转发数据包时的能力，缓存大，转发的就快，客户端的计算机网速也就相应的提高，反之则相反。<br>通俗点说，每个路由器根据所在网络的不同，都有自己都路由表，在工作时会选择相应的路径。为什么要有路由器缓存呢？这个也是为了发送数据，因为路由器最高层一般都是网络层，网络层作用一般是传输数据包，数据包又是经过应用层向下传输数据，如果我们没有缓存的话，那么，路由表每次都会查找路径上对应的ip地址，这样一来，势必会让网页加载变慢。一句话概括路由器缓存就是，它是一种可以加快你访问网页速度的临时文件存储空间。</p>
+        <p>JSON.stringify() 从一个对象中解析出字符串</p>
+<p>JSON.stringify({“a”:”1”,”b”:”2”})</p>
+<p>结果是：”{“a”:”1”,”b”:”2”}”</p>
+<hr>
+<p>JSON.parse()从一个字符串中解析出JSON对象</p>
+<p>var str = ‘{“a”:”1”,”b”:”2”}’;</p>
+<p>JSON.parse(str);</p>
+<p>结果是：Object{a:”1”,b:”2”}</p>
 
       
     </div>
@@ -409,18 +393,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
-          
-            <a href="/tags/github/" rel="tag"># github</a>
-          
-            <a href="/tags/npm/" rel="tag"># npm</a>
-          
-            <a href="/tags/js/" rel="tag"># js</a>
-          
-        </div>
-      
 
       
       
@@ -430,8 +402,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/03/27/从输入Url到页面加载的过程/" rel="next" title="从输入Url到页面加载的过程">
-                <i class="fa fa-chevron-left"></i> 从输入Url到页面加载的过程
+              <a href="/2018/04/13/使用js实现一个持续动画效果/" rel="next" title="使用js实现一个持续动画效果">
+                <i class="fa fa-chevron-left"></i> 使用js实现一个持续动画效果
               </a>
             
           </div>
@@ -440,8 +412,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/03/28/跨域请求cors和jsonp两种解决方案 /" rel="prev" title="cors和jsonp跨域解决方案">
-                cors和jsonp跨域解决方案 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/04/13/vue-双向绑定实现原理/" rel="prev" title="vue 双向绑定实现原理">
+                vue 双向绑定实现原理 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>

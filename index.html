@@ -300,6 +300,383 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/13/vue-双向绑定实现原理/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yanhaha">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yanhaha's house">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/13/vue-双向绑定实现原理/" itemprop="url">vue 双向绑定实现原理</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T14:42:11+08:00">
+                2018-04-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">&lt;input type=<span class="string">"text"</span> id=<span class="string">"txt"</span>&gt;</span><br><span class="line">&lt;p id=<span class="string">"show-txt"</span>&gt;&lt;/p&gt;</span><br><span class="line">&lt;<span class="regexp">/div&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"><span class="keyword">let</span> obj = &#123;&#125;;</span><br><span class="line"><span class="built_in">Object</span>.defineProperty(obj, <span class="string">'txt'</span>, &#123;</span><br><span class="line">get: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"><span class="keyword">return</span> obj;</span><br><span class="line">&#125;,</span><br><span class="line">set: <span class="function"><span class="keyword">function</span> (<span class="params">newvalue</span>) </span>&#123;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'txt'</span>).value = newvalue;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'show-txt'</span>).innerHTML = newvalue;</span><br><span class="line">&#125;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">'keyup'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">obj.txt = e.target.value;</span><br><span class="line">&#125;)</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/13/JSON-stringify-和JSON-parse-分别是什么/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yanhaha">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yanhaha's house">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/13/JSON-stringify-和JSON-parse-分别是什么/" itemprop="url">JSON.stringify()和JSON.parse()分别是什么</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T14:34:25+08:00">
+                2018-04-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>JSON.stringify() 从一个对象中解析出字符串</p>
+<p>JSON.stringify({“a”:”1”,”b”:”2”})</p>
+<p>结果是：”{“a”:”1”,”b”:”2”}”</p>
+<hr>
+<p>JSON.parse()从一个字符串中解析出JSON对象</p>
+<p>var str = ‘{“a”:”1”,”b”:”2”}’;</p>
+<p>JSON.parse(str);</p>
+<p>结果是：Object{a:”1”,b:”2”}</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/13/使用js实现一个持续动画效果/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yanhaha">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yanhaha's house">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/13/使用js实现一个持续动画效果/" itemprop="url">使用js实现一个持续动画效果</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T13:18:55+08:00">
+                2018-04-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="最开始的思路是用定时器实现"><a href="#最开始的思路是用定时器实现" class="headerlink" title="最开始的思路是用定时器实现"></a>最开始的思路是用定时器实现</h2><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> e = <span class="built_in">document</span>.getElementById(<span class="string">'e'</span>);</span><br><span class="line"><span class="keyword">let</span> flag = <span class="literal">true</span>;</span><br><span class="line"><span class="keyword">let</span> left = <span class="number">0</span>;</span><br><span class="line">setInterval(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</span><br><span class="line">   left == <span class="number">0</span> ? flag = <span class="literal">true</span> : left == <span class="number">100</span> ? flag == <span class="literal">false</span> : <span class="string">''</span></span><br><span class="line">   flag ? e.style.left = <span class="string">`<span class="subst">$&#123;left++&#125;</span>px`</span> : e.style.left = <span class="string">`<span class="subst">$&#123;left--&#125;</span>px`</span></span><br><span class="line">&#125;, <span class="number">1000</span> / <span class="number">60</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>但这种写法会出现毫秒的不精确性，于是google一下，找到一个完美方案 <code>requestAnimFrame</code></p>
+<h2 id="初识requestAnimationFrame"><a href="#初识requestAnimationFrame" class="headerlink" title="初识requestAnimationFrame"></a>初识requestAnimationFrame</h2><hr>
+<p>来看<a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame" target="_blank" rel="noopener">MDN</a>上对其给出的诠释<br><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The <span class="built_in">window</span>.requestAnimationFrame() method tells the browser that you wish to perform an animation and requests that the browser call a specified <span class="function"><span class="keyword">function</span> <span class="title">to</span> <span class="title">update</span> <span class="title">an</span> <span class="title">animation</span> <span class="title">before</span> <span class="title">the</span> <span class="title">next</span> <span class="title">repaint</span>. <span class="title">The</span> <span class="title">method</span> <span class="title">takes</span> <span class="title">as</span> <span class="title">an</span> <span class="title">argument</span> <span class="title">a</span> <span class="title">callback</span> <span class="title">to</span> <span class="title">be</span> <span class="title">invoked</span> <span class="title">before</span> <span class="title">the</span> <span class="title">repaint</span>.</span></span><br></pre></td></tr></table></figure><br><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">window</span>.requestAnimationFrame() 将告知浏览器你马上要开始动画效果了，后者需要在下次动画前调用相应方法来更新画面。这个方法就是传递给<span class="built_in">window</span>.requestAnimationFrame()的回调函数。</span><br></pre></td></tr></table></figure></p>
+<p>也可这个方法原理其实也就跟setTimeout/setInterval差不多，通过递归调用同一方法来不断更新画面以达到动起来的效果，但它优于setTimeout/setInterval的地方在于它是由浏览器专门为动画提供的API，在运行时浏览器会自动优化方法的调用，并且如果页面不是激活状态下的话，动画会自动暂停，有效节省了CPU开销。</p>
+<h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">requestAnimationFrame(callback)<span class="comment">//callback为回调函数</span></span><br></pre></td></tr></table></figure>
+<h2 id="使用requestAnimFrame实现持续动画效果"><a href="#使用requestAnimFrame实现持续动画效果" class="headerlink" title="使用requestAnimFrame实现持续动画效果"></a>使用requestAnimFrame实现持续动画效果</h2><p>//兼容性处理</p>
+<figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">window</span>.requestAnimFrame = (<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;  </span><br><span class="line"><span class="keyword">return</span></span><br><span class="line">    <span class="built_in">window</span>.requestAnimationFrame || </span><br><span class="line">    <span class="built_in">window</span>.webkitRequestAnimationFrame ||</span><br><span class="line">    <span class="built_in">window</span>.mozRequestAnimationFrame ||</span><br><span class="line">    <span class="built_in">window</span>.oRequestAnimationFrame ||</span><br><span class="line">    <span class="built_in">window</span>.msRequestAnimationFrame ||  </span><br><span class="line">    <span class="function"><span class="keyword">function</span>(<span class="params"> <span class="regexp">/* function FrameRequestCallback */</span> callback, <span class="regexp">/* DOMElement Element */</span> element</span>) </span>&#123;  </span><br><span class="line">      <span class="keyword">return</span> <span class="built_in">window</span>.setTimeout(callback, <span class="number">1000</span> / <span class="number">60</span>);  </span><br><span class="line">    &#125;;  </span><br><span class="line">&#125;)();  </span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> e = <span class="built_in">document</span>.getElementById(<span class="string">'e'</span>);</span><br><span class="line"><span class="keyword">let</span> flag = <span class="literal">true</span>;</span><br><span class="line"><span class="keyword">let</span> left = <span class="number">0</span>;</span><br><span class="line">setInterval(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</span><br><span class="line">    left == <span class="number">0</span> ? flag = <span class="literal">true</span> : left == <span class="number">100</span> ? flag == <span class="literal">false</span> : <span class="string">''</span></span><br><span class="line">    flag ? e.style.left = <span class="string">`<span class="subst">$&#123;left++&#125;</span>px`</span> : e.style.left = <span class="string">`<span class="subst">$&#123;left--&#125;</span>px`</span></span><br><span class="line">&#125;, <span class="number">1000</span> / <span class="number">60</span>)</span><br><span class="line"></span><br><span class="line">(<span class="function"><span class="keyword">function</span> <span class="title">animloop</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    render();</span><br><span class="line">    requestAimFrame(animloop);</span><br><span class="line">&#125;)()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="requestAnimFrame的优势有哪些"><a href="#requestAnimFrame的优势有哪些" class="headerlink" title="requestAnimFrame的优势有哪些"></a>requestAnimFrame的优势有哪些</h2><p>1.<code>浏览器可以优化并行的动画动作，更合理的重新排列动作序列，并把能够合并的动作放在一个渲染周期内完成，从而呈现出更流畅的动画效果。（原理）</code><br>2.<code>解决毫秒的不精确性（很好的解决的上面的原始方案）</code><br>3.<code>避免过渡渲染（渲染频率太大、tab不可见暂停等等）</code><br><code>注：requestAnimFrame和定时器一样有一个清除方法cancelAnimationFrame</code></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/13/使用css实现一个持续动画效果/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -372,6 +749,42 @@
         
           
             <figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">css:</span><br><span class="line">#divdemo&#123;</span><br><span class="line">background-color: red;</span><br><span class="line">width:<span class="number">100</span>px;</span><br><span class="line">height:<span class="number">100</span>px;</span><br><span class="line">border:1px solid #03ccbb;</span><br><span class="line">position:relative;</span><br><span class="line">animation: mymove <span class="number">4</span>s linear <span class="number">2</span>s infinite alternate;</span><br><span class="line">&#125;</span><br><span class="line">@keyframes mymove &#123;</span><br><span class="line"><span class="number">0</span>%   &#123;<span class="attr">background</span>:red; left:<span class="number">0</span>px; top:<span class="number">0</span>px;&#125;</span><br><span class="line"><span class="number">25</span>%  &#123;<span class="attr">background</span>:yellow; left:<span class="number">200</span>px; top:<span class="number">0</span>px;&#125;</span><br><span class="line"><span class="number">50</span>%  &#123;<span class="attr">background</span>:blue; left:<span class="number">200</span>px; top:<span class="number">200</span>px;&#125;</span><br><span class="line"><span class="number">75</span>%  &#123;<span class="attr">background</span>:green; left:<span class="number">0</span>px; top:<span class="number">200</span>px;&#125;</span><br><span class="line"><span class="number">100</span>% &#123;<span class="attr">background</span>:red; left:<span class="number">0</span>px; top:<span class="number">0</span>px;&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>上面css中采用简洁写法，如下为动画的主要参数</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th style="text-align:center">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>animation-name</td>
+<td style="text-align:center">规定需要绑定到选择器的keyframe名称</td>
+</tr>
+<tr>
+<td>animation-duration</td>
+<td style="text-align:center">规定完成动画所花费的时间，以毫秒计</td>
+</tr>
+<tr>
+<td>animation-timing-function</td>
+<td style="text-align:center">规定动画运动速度曲线</td>
+</tr>
+<tr>
+<td>animation-delay</td>
+<td style="text-align:center">规定动画在延迟多少秒后开始运动</td>
+</tr>
+<tr>
+<td>animation-iteration-count</td>
+<td style="text-align:center">规定动画播放的次数</td>
+</tr>
+<tr>
+<td>animation-direction</td>
+<td style="text-align:center">规定动画是否轮流反向播放</td>
+</tr>
+</tbody>
+</table>
+<p><a href="http://www.w3school.com.cn/css3/css3_animation.asp" target="_blank" rel="noopener">具体细节请参照http://www.w3school.com.cn/css3/css3_animation.asp</a></p>
 
           
         
@@ -890,7 +1303,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

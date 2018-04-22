@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="Javascript Array SyntaxMDN Documentation1234&amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;input type=&quot;text&quot; id=&quot;txt&quot;&amp;gt;&amp;lt;p id=&quot;show-txt&quot;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt; Javascript Array SyntaxMDN Documentation1234567891011121">
+<meta name="description" content="cookie的增删改查Javascript Array SyntaxMDN Documentation1234567891011121314151617181920212223/*2018/04/20cookie操作*/function setCookie(key, value, iDay) &amp;#123;    let oDate = new Date();    oDate.setDate(oD">
 <meta property="og:type" content="article">
-<meta property="og:title" content="vue 双向绑定实现原理">
-<meta property="og:url" content="http://yoursite.com/2018/04/13/vue-双向绑定实现原理/index.html">
+<meta property="og:title" content="封装一个cookie">
+<meta property="og:url" content="http://yoursite.com/2018/04/22/封装一个cookie/index.html">
 <meta property="og:site_name" content="Yanhaha&#39;s house">
-<meta property="og:description" content="Javascript Array SyntaxMDN Documentation1234&amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;input type=&quot;text&quot; id=&quot;txt&quot;&amp;gt;&amp;lt;p id=&quot;show-txt&quot;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt; Javascript Array SyntaxMDN Documentation1234567891011121">
+<meta property="og:description" content="cookie的增删改查Javascript Array SyntaxMDN Documentation1234567891011121314151617181920212223/*2018/04/20cookie操作*/function setCookie(key, value, iDay) &amp;#123;    let oDate = new Date();    oDate.setDate(oD">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-04-13T07:45:26.501Z">
+<meta property="og:updated_time" content="2018-04-22T04:40:53.885Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="vue 双向绑定实现原理">
-<meta name="twitter:description" content="Javascript Array SyntaxMDN Documentation1234&amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;input type=&quot;text&quot; id=&quot;txt&quot;&amp;gt;&amp;lt;p id=&quot;show-txt&quot;&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt; Javascript Array SyntaxMDN Documentation1234567891011121">
+<meta name="twitter:title" content="封装一个cookie">
+<meta name="twitter:description" content="cookie的增删改查Javascript Array SyntaxMDN Documentation1234567891011121314151617181920212223/*2018/04/20cookie操作*/function setCookie(key, value, iDay) &amp;#123;    let oDate = new Date();    oDate.setDate(oD">
 
 
 
@@ -119,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/13/vue-双向绑定实现原理/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/04/22/封装一个cookie/"/>
 
 
 
 
 
-  <title>vue 双向绑定实现原理 | Yanhaha's house</title>
+  <title>封装一个cookie | Yanhaha's house</title>
   
 
 
@@ -303,7 +303,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/13/vue-双向绑定实现原理/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/22/封装一个cookie/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Yanhaha">
@@ -320,7 +320,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">vue 双向绑定实现原理</h1>
+          <h1 class="post-title" itemprop="name headline">封装一个cookie</h1>
         
 
         <div class="post-meta">
@@ -332,8 +332,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-13T14:42:11+08:00">
-                2018-04-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-22T12:29:46+08:00">
+                2018-04-22
               </time>
             
 
@@ -370,8 +370,7 @@
       
 
       
-        <figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=<span class="string">"app"</span>&gt;</span><br><span class="line">&lt;input type=<span class="string">"text"</span> id=<span class="string">"txt"</span>&gt;</span><br><span class="line">&lt;p id=<span class="string">"show-txt"</span>&gt;&lt;/p&gt;</span><br><span class="line">&lt;<span class="regexp">/div&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"><span class="keyword">let</span> obj = &#123;&#125;;</span><br><span class="line"><span class="built_in">Object</span>.defineProperty(obj, <span class="string">'txt'</span>, &#123;</span><br><span class="line">get: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line"><span class="keyword">return</span> obj;</span><br><span class="line">&#125;,</span><br><span class="line">set: <span class="function"><span class="keyword">function</span> (<span class="params">newvalue</span>) </span>&#123;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'txt'</span>).value = newvalue;</span><br><span class="line"><span class="built_in">document</span>.getElementById(<span class="string">'show-txt'</span>).innerHTML = newvalue;</span><br><span class="line">&#125;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">'keyup'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">e</span>) </span>&#123;</span><br><span class="line">obj.txt = e.target.value;</span><br><span class="line">&#125;)</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
+        <h2 id="cookie的增删改查"><a href="#cookie的增删改查" class="headerlink" title="cookie的增删改查"></a>cookie的增删改查</h2><figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="noopener">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">2018/04/20</span></span><br><span class="line"><span class="comment">cookie操作</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">setCookie</span>(<span class="params">key, value, iDay</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> oDate = <span class="keyword">new</span> <span class="built_in">Date</span>();</span><br><span class="line">    oDate.setDate(oDate.getDate() + iDay);</span><br><span class="line">    <span class="built_in">document</span>.cookie = key + <span class="string">'='</span> + value + <span class="string">';expires='</span> + oDate;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">removeCookie</span>(<span class="params">key</span>) </span>&#123;</span><br><span class="line">    setCookie(key, <span class="string">''</span>, <span class="number">-1</span>);<span class="comment">//这里只需要把Cookie保质期退回一天便可以删除</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">getCookie</span>(<span class="params">key</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> cookieArr = <span class="built_in">document</span>.cookie.split(<span class="string">'; '</span>);</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; cookieArr.length; i++) &#123;</span><br><span class="line">    <span class="keyword">let</span> arr = cookieArr[i].split(<span class="string">'='</span>);</span><br><span class="line">    <span class="keyword">if</span>(arr[<span class="number">0</span>] === key) &#123;</span><br><span class="line">        <span class="keyword">return</span> arr[<span class="number">1</span>];</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"><span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -396,8 +395,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/13/JSON-stringify-和JSON-parse-分别是什么/" rel="next" title="JSON.stringify()和JSON.parse()分别是什么">
-                <i class="fa fa-chevron-left"></i> JSON.stringify()和JSON.parse()分别是什么
+              <a href="/2018/04/13/vue-双向绑定实现原理/" rel="next" title="vue 双向绑定实现原理">
+                <i class="fa fa-chevron-left"></i> vue 双向绑定实现原理
               </a>
             
           </div>
@@ -405,10 +404,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/04/22/封装一个cookie/" rel="prev" title="封装一个cookie">
-                封装一个cookie <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -460,8 +455,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -521,6 +525,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#cookie的增删改查"><span class="nav-number">1.</span> <span class="nav-text">cookie的增删改查</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
